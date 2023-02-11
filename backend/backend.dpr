@@ -9,7 +9,9 @@ uses
   Horse,
   Horse.Jhonson,
   UnitMesas.Controller in 'Controllers\Mesas\UnitMesas.Controller.pas',
-  UnitDatabase in 'Database\UnitDatabase.pas';
+  UnitDatabase in 'Database\UnitDatabase.pas',
+  UnitProdutos.Model in 'Models\Produtos\UnitProdutos.Model.pas',
+  UnitProdutos.Controller in 'Controllers\Produtos\UnitProdutos.Controller.pas';
 
 begin
   //middlewares
@@ -17,6 +19,7 @@ begin
 
   //Controllers
   TControllerMesas.Registry;
+  TControllerProdutos.Registry;
 
   ////
   THorse.Listen(9000,

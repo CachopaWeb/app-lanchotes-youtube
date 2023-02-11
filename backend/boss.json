@@ -8,6 +8,8 @@
 	"dependencies": {
 		"github.com/hashload/horse": "^3.0.2",
 		"github.com/hashload/jhonson": "^1.1.4",
-		"https://github.com/cachopaweb/factory-connections": "^1.0.1"
+		"https://github.com/cachopaweb/factory-connections": "^1.0.1",
+		"https://github.com/cachopaweb/portalorm": "^v1.0.6",
+		"https://github.com/viniciussanchez/dataset-serialize": "^v2.4.8"
 	}
 }
