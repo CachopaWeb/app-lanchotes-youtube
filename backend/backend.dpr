@@ -18,7 +18,7 @@ begin
   THorse.Use(Jhonson);
 
   //Controllers
-  TControllerMesas.Registry;
+	TControllerMesas.Registry;
   TControllerProdutos.Registry;
 
   ////

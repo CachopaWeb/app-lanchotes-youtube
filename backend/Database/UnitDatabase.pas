@@ -4,7 +4,7 @@ interface
 uses
   UnitConnection.Model.Interfaces,
   UnitConnection.Firedac.Model,
-  UnitFactory.Connection.IBExpress;
+	UnitFactory.Connection.Firedac;
 
 type
   TDatabase = class
@@ -23,7 +23,7 @@ end;
 
 class function TDatabase.Query: iQuery;
 begin
-  Result := TFactoryConnectionIBExpress.New('../../Dados/PRINCIPAL.FDB').Query;
+	Result := TFactoryConnectionFiredac.New('../../Dados/PRINCIPAL.FDB').Query;
 end;
 
 end.
